@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cliente</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="formulario para enviar un mensaje al servidor."/>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+</head>
+<body>
+
+	<div>
+		<label>Mensaje</label>
+		<textarea name="message" id="message" placeholder="Escribe el mensaje que será encriptado, enviado al servidor y mostrado por consola."></textarea>
+		<button type="submit" onclick="send();">Enviar</button>
+		<p>El mensaje encriptado se mostrará en consola del navegador, luego el mismo mensaje se mostrará tanto encriptado como desencriptado en la consola del servidor.</p>
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/jsbn.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/random.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/hash.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/rsa.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/aes.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/api.js"></script>
+</body>
+</html>

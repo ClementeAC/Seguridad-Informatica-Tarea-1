@@ -1,0 +1,48 @@
+*{
+	box-sizing:border-box;
+	background-color: black;
+}
+
+p{
+	color: #f6f6f6;
+	font-family: sans-serif;
+}
+
+div{
+	margin: 2rem;
+	padding: 2rem;
+}
+
+label{
+	font-family: sans-serif;
+	color: turquoise;
+	padding: 5px;
+	border-top: 5px;
+	font-size: 63px;
+}
+
+button{
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid paleturquoise;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:turquoise;
+} 
+
+button:hover{
+	cursor:pointer;
+	background-color:paleturquoise;
+}
+
+textarea{
+	width: 30%;
+	height:200px;
+	border:3px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
